@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  MovieProject
+
+  Created by NCP:Zero on 13/11/22.
+  
+*/
+
+// MARK: Login
+
+"username" = "Usuario:";
+"password" = "Contraseña:";
+"accessLogin" = "Ingresar";
+
+// MARK: Alerts
+
+"titleAlertLogin" = "Error";
+"messageAlertLogin" = "El usuario o contraseña no existe";
+"cancelButton" = "Cancelar";
