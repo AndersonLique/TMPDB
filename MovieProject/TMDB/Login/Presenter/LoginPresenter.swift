@@ -8,11 +8,11 @@
 import UIKit
 
 class LoginPresenter: LoginPresenterProtocol {
-    var view: LoginViewProtrocol?
+    weak var view: LoginViewProtrocol?
     var router: LoginRouterProtocol?
     
-    func goToListMovies(view: UIViewController) {
-        router?.showListMoview(view: view)
+    func goToListMovies(view: UIViewController, user: String) {
+        router?.showListMoview(view: view, user: user)
     }
     
 }

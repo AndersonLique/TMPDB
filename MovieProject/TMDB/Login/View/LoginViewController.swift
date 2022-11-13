@@ -59,7 +59,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     @IBAction func actionLogin(_ sender: Any) {
         
         if inputUser.text == "Admin" && inputPassword.text == "Password*123" {
-            presenter?.goToListMovies(view: self)
+            presenter?.goToListMovies(view: self, user: inputUser.text!)
         } else {
             alertView(viewController: self, title: Alert.titleAlertLogin.localizable, message: Alert.messageAlertLogin.localizable)
         }

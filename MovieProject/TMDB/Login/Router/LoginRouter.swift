@@ -26,8 +26,9 @@ class LoginRouter: LoginRouterProtocol {
         return viewController
     }
     
-    func showListMoview(view: UIViewController) {
-        print("si paso")
+    func showListMoview(view: UIViewController, user: String) {
+        let viewMovieList = MovieListRouter().createMovieList(user: user)
+        view.present(viewMovieList, animated: true)
     }
     
 }
