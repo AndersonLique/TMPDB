@@ -17,3 +17,8 @@
 "titleAlertLogin" = "Error";
 "messageAlertLogin" = "El usuario o contraseña no existe";
 "cancelButton" = "Cancelar";
+
+// MARK: DefaultKeys
+"urlBase" = "https://api.themoviedb.org/3";
+"urlImage" = "https://image.tmdb.org/t/p/w500";
+"api_key" = "d86ae4822c19396e8cbb733422e81060";

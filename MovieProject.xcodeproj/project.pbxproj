@@ -15,12 +15,21 @@
 		D11D50F02920E768003DED16 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11D50EF2920E768003DED16 /* LoginInteractor.swift */; };
 		D11D51062920FE3B003DED16 /* TMDB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11D51052920FE3B003DED16 /* TMDB.storyboard */; };
 		D11D51072920FE6D003DED16 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D11D51092920FE6D003DED16 /* Localizable.strings */; };
+		D11D51142921219C003DED16 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11D51132921219C003DED16 /* MovieListViewController.swift */; };
+		D11D5116292121A9003DED16 /* MovieListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11D5115292121A9003DED16 /* MovieListInteractor.swift */; };
+		D11D5118292121B7003DED16 /* MovieListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11D5117292121B7003DED16 /* MovieListPresenter.swift */; };
+		D11D511A292121CA003DED16 /* MovieListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11D5119292121CA003DED16 /* MovieListEntity.swift */; };
+		D11D511C292121D4003DED16 /* MovieListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11D511B292121D4003DED16 /* MovieListRouter.swift */; };
+		D11D511E2921228E003DED16 /* MovieListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11D511D2921228E003DED16 /* MovieListProtocol.swift */; };
+		D14A7D7529212E29007C7F5E /* MovieListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14A7D7329212E29007C7F5E /* MovieListTableViewCell.swift */; };
 		D175A00C2920BE8A00720A3A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D175A00B2920BE8A00720A3A /* LoginViewController.swift */; };
 		D1ACF2E5291F9000008F65C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ACF2E4291F9000008F65C9 /* AppDelegate.swift */; };
 		D1ACF2E7291F9000008F65C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ACF2E6291F9000008F65C9 /* SceneDelegate.swift */; };
 		D1ACF2EF291F9000008F65C9 /* MovieProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1ACF2ED291F9000008F65C9 /* MovieProject.xcdatamodeld */; };
 		D1ACF2F1291F9001008F65C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1ACF2F0291F9001008F65C9 /* Assets.xcassets */; };
 		D1ACF2F4291F9001008F65C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1ACF2F2291F9001008F65C9 /* LaunchScreen.storyboard */; };
+		D1CB024C29212E54000BF1FA /* MovieListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1CB024A29212E54000BF1FA /* MovieListTableViewCell.xib */; };
+		D1CB0252292191FF000BF1FA /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CB0251292191FF000BF1FA /* Spinner.swift */; };
 		F15365AAEEF6C1AA98408C55 /* Pods_MovieProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77CAEA680996FEAD864FA56 /* Pods_MovieProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +46,13 @@
 		D11D51052920FE3B003DED16 /* TMDB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TMDB.storyboard; sourceTree = "<group>"; };
 		D11D51082920FE6D003DED16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D11D510A2920FE7F003DED16 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D11D51132921219C003DED16 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		D11D5115292121A9003DED16 /* MovieListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListInteractor.swift; sourceTree = "<group>"; };
+		D11D5117292121B7003DED16 /* MovieListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListPresenter.swift; sourceTree = "<group>"; };
+		D11D5119292121CA003DED16 /* MovieListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListEntity.swift; sourceTree = "<group>"; };
+		D11D511B292121D4003DED16 /* MovieListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListRouter.swift; sourceTree = "<group>"; };
+		D11D511D2921228E003DED16 /* MovieListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListProtocol.swift; sourceTree = "<group>"; };
+		D14A7D7329212E29007C7F5E /* MovieListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewCell.swift; sourceTree = "<group>"; };
 		D175A00B2920BE8A00720A3A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D1ACF2E1291F9000008F65C9 /* MovieProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1ACF2E4291F9000008F65C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +61,8 @@
 		D1ACF2F0291F9001008F65C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1ACF2F3291F9001008F65C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1ACF2F5291F9001008F65C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CB024A29212E54000BF1FA /* MovieListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MovieListTableViewCell.xib; path = TMDB/Login/View/MovieListTableViewCell.xib; sourceTree = "<group>"; };
+		D1CB0251292191FF000BF1FA /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,7 @@
 			children = (
 				D11D50E42920DB16003DED16 /* Extensions.swift */,
 				D11D50E62920DEDB003DED16 /* Constants.swift */,
+				D1CB0251292191FF000BF1FA /* Spinner.swift */,
 			);
 			path = Extra;
 			sourceTree = "<group>";
@@ -93,10 +112,73 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		D11D510D29211F9C003DED16 /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				D11D511F29212293003DED16 /* Protocol */,
+				D11D511229211FC0003DED16 /* Router */,
+				D11D511129211FB8003DED16 /* Entity */,
+				D11D511029211FB3003DED16 /* Presenter */,
+				D11D510F29211FAC003DED16 /* Interactor */,
+				D11D510E29211FA3003DED16 /* View */,
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		D11D510E29211FA3003DED16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D11D51132921219C003DED16 /* MovieListViewController.swift */,
+				D14A7D7329212E29007C7F5E /* MovieListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D11D510F29211FAC003DED16 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D11D5115292121A9003DED16 /* MovieListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D11D511029211FB3003DED16 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D11D5117292121B7003DED16 /* MovieListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D11D511129211FB8003DED16 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D11D5119292121CA003DED16 /* MovieListEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		D11D511229211FC0003DED16 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D11D511B292121D4003DED16 /* MovieListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D11D511F29212293003DED16 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D11D511D2921228E003DED16 /* MovieListProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		D175A0042920BDF600720A3A /* TMDB */ = {
 			isa = PBXGroup;
 			children = (
 				D11D50E12920D9C3003DED16 /* Extra */,
+				D11D510D29211F9C003DED16 /* MovieList */,
 				D175A0052920BE0A00720A3A /* Login */,
 			);
 			path = TMDB;
@@ -157,6 +239,7 @@
 		D175A0102920BFBD00720A3A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D1CB024A29212E54000BF1FA /* MovieListTableViewCell.xib */,
 				D11D51052920FE3B003DED16 /* TMDB.storyboard */,
 				D1ACF2F0291F9001008F65C9 /* Assets.xcassets */,
 				D1ACF2F2291F9001008F65C9 /* LaunchScreen.storyboard */,
@@ -207,6 +290,7 @@
 				D1ACF2DD291F9000008F65C9 /* Sources */,
 				D1ACF2DE291F9000008F65C9 /* Frameworks */,
 				D1ACF2DF291F9000008F65C9 /* Resources */,
+				FE6D9804218D2B8FE2087E59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1ACF2F4291F9001008F65C9 /* LaunchScreen.storyboard in Resources */,
+				D1CB024C29212E54000BF1FA /* MovieListTableViewCell.xib in Resources */,
 				D11D51062920FE3B003DED16 /* TMDB.storyboard in Resources */,
 				D11D51072920FE6D003DED16 /* Localizable.strings in Resources */,
 				D1ACF2F1291F9001008F65C9 /* Assets.xcassets in Resources */,
@@ -288,6 +373,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FE6D9804218D2B8FE2087E59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieProject/Pods-MovieProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieProject/Pods-MovieProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieProject/Pods-MovieProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -295,15 +397,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11D511E2921228E003DED16 /* MovieListProtocol.swift in Sources */,
+				D1CB0252292191FF000BF1FA /* Spinner.swift in Sources */,
 				D11D50E52920DB16003DED16 /* Extensions.swift in Sources */,
 				D11D50EC2920E3E7003DED16 /* LoginProtocol.swift in Sources */,
 				D1ACF2EF291F9000008F65C9 /* MovieProject.xcdatamodeld in Sources */,
+				D11D511A292121CA003DED16 /* MovieListEntity.swift in Sources */,
 				D11D50EE2920E744003DED16 /* LoginPresenter.swift in Sources */,
 				D1ACF2E5291F9000008F65C9 /* AppDelegate.swift in Sources */,
+				D14A7D7529212E29007C7F5E /* MovieListTableViewCell.swift in Sources */,
 				D175A00C2920BE8A00720A3A /* LoginViewController.swift in Sources */,
 				D1ACF2E7291F9000008F65C9 /* SceneDelegate.swift in Sources */,
+				D11D5116292121A9003DED16 /* MovieListInteractor.swift in Sources */,
+				D11D5118292121B7003DED16 /* MovieListPresenter.swift in Sources */,
+				D11D51142921219C003DED16 /* MovieListViewController.swift in Sources */,
 				D11D50E92920E363003DED16 /* LoginRouter.swift in Sources */,
 				D11D50F02920E768003DED16 /* LoginInteractor.swift in Sources */,
+				D11D511C292121D4003DED16 /* MovieListRouter.swift in Sources */,
 				D11D50E72920DEDB003DED16 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

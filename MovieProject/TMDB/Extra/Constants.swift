@@ -18,3 +18,10 @@ enum Alert: String {
     case messageAlertLogin
     case cancelButton
 }
+
+
+enum DefaultKeyTMDB: String, Encodable {
+    case urlBase
+    case urlImage
+    case api_key
+}

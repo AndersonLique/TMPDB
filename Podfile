@@ -6,5 +6,5 @@ target 'MovieProject' do
   use_frameworks!
 
   # Pods for MovieProject
-
+  pod 'Alamofire'
 end
